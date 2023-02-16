@@ -2,11 +2,14 @@ import React from "react";
 import style from "styled-components";
 import Imageslider from "./Imageslider";
 import Viewers from "./Viewers";
+import Movies from "./Movies";
+
 function Home() {
   return (
     <Container>
       <Imageslider />
       <Viewers />
+      <Movies />
     </Container>
   );
 }
@@ -15,8 +18,8 @@ export default Home;
 
 const Container = style.div`
 min-height:calc(100vh -70px);
-padding: 0 calc(3.5vw +5px);
-absolute:relative;
+padding: 0 50px;
+position:relative;
 overflow:hidden;
 &:before{
   background:url("/images/home-background.png") center center / cover 

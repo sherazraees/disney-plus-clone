@@ -2,10 +2,6 @@ body {
   margin: 0;
   color:white;
   background-color:#040714;
+  box-sizing: border-box;
 
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
